@@ -1,0 +1,57 @@
+body {
+    font-family: 'Lucida Grande', Verdana, Arial, Sans-Serif;
+    background-image: url("binary.jpg");
+    background-repeat: repeat-x;
+    font-size: 80%;
+    background-size: 60%;
+    background-color: black;
+}
+
+ul#tabs {
+    list-style-type: none;
+    margin: 30px 0 0 0;
+    padding: 0 0 0.3em 0;
+}
+
+ul#tabs li {
+    display: inline;
+}
+
+ul#tabs li a {
+    color: #42454a;
+    background-color: #d0e0e0;
+    border: 1px solid #c9c3ba;
+    border-bottom: none;
+    padding: 0.3em;
+    text-decoration: none;
+}
+
+ul#tabs li a:hover {
+    background-color: #b6d0e7;
+}
+
+ul#tabs li a.selected {
+    color: #000;
+    background-color: #b6d0e7;
+    font-weight: bold;
+    padding: 0.7em 0.3em 0.38em 0.3em;
+}
+
+div.tabContent {
+    border: 1px solid #c9c3ba;
+    padding: 0.5em;
+    background-color: #b6d0e7;
+}
+
+div.tabContent.hide {
+    display: none;
+}
+
+#github
+{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #b6d0e7;
+    padding: 10px;
+}

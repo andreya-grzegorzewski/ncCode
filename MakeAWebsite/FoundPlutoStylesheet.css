@@ -1,0 +1,73 @@
+body {
+    background-color: #c1c2d4;
+    width: 220px;
+    padding: 5px;
+}
+
+p {
+    font-size: 16px;
+    font-family: "Times New Roman";
+    padding-left: 12px;
+    padding-top: 6px;
+    letter-spacing: 1px;
+}
+
+#title {
+    color: #3b4f97;
+    font-family:"Times New Roman";
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 10px;
+    padding-right: 15px;
+    line-height: 100%;
+    }
+
+#author {
+    color: #3b4f97;
+    font-family:"Times New Roman";
+    font-size: 24px;
+    font-weight: bold;
+    position: relative;
+    left: 8px;
+    top: 10px;
+}
+
+#website {
+    font-family: arial;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    left: 10px;
+    top: 12px;
+}
+
+#little {
+    font-size: 13px;
+    font-family: Arial;
+    font-style: italic;
+    float: right;
+    padding-right: 30px;
+    font-weight: bold;
+    line-height: 140%;
+}
+
+#bold {
+    font-weight: bold;
+}
+
+#bookImg {
+    width: 174px;
+    height: 262px;
+    padding-left: 12px;
+    padding-top: 17px;
+    box-shadow: 10px 10px 5px #9e9fa4;
+}
+
+#shopImg {
+    width: 77px;
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 2px;
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Andreya's Less Boring Page</title>
+    <link rel="stylesheet" type="text/css" href="twoAdsCSS.css">
+</head>
+<body>
+<h1>Hello, Pluto!</h1>
+<hr>
+<img src="actual vs mimic.jpg" alt="You couldn't tell them apart anyways.">
+</body>
+</html>
