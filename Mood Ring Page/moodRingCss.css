@@ -1,0 +1,72 @@
+body
+{
+    text-align: center;
+    background-color: lightgray;
+}
+
+p
+{
+    border: 30px solid #5e5e5e;
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background: rgba(0, 0, 0, 0);
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+p.happy
+{
+    color: black;
+    border-color: #fde505;
+    background: rgba(0, 0, 0, 0);
+}
+body.happy
+{
+    background-image: url("happy.jpg");
+    background-repeat: repeat-y;
+    background-color: #ffffd6;
+}
+
+body.sad
+{
+    background-image: url("sad.jpg");
+    background-repeat: repeat-x;
+    background-color: #0064a0;
+    color: #cbfcfe;
+}
+p.sad
+{
+    border-color: #003c64;
+    color: #cbfcfe;
+    background: rgba(0, 0, 0, 0);
+}
+
+body.mad
+{
+    background-image: url("mad.jpg");
+    background-repeat: repeat;
+    color: lightgray;
+}
+p.mad
+{
+    background: rgba(0, 0, 0, 0);
+    border-color: #b80003;
+    color: lightgray;
+}
+
+body.inLove
+{
+    color: #ff0078;
+    background-image: url("inLove.jpg");
+    background-size: 100%;
+}
+p.inLove
+{
+    color: #ff0078;
+    border-color: #f74b96;
+    background: rgba(0, 0, 0, 0);
+}

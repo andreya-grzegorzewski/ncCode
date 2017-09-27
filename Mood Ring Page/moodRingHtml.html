@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Virtual Mood Ring</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="moodRingJs.js" type="text/javascript"></script>
+    <link href="moodRingCss.css" type = "text/css" rel="stylesheet"/>
+</head>
+<body>
+<script>
+    hideMoods();
+</script>
+<h2>Welcome to the Virtual Mood Ring!</h2>
+<div>
+    <span>How are you feeling today?</span> <br/><br/>
+    <button onclick="switchToSad()"    type="button">Sad       </button>
+    <button onclick="switchToHappy()"  type="button">Happy     </button>
+    <button onclick="switchToMad()"    type="button">Mad       </button>
+    <button onclick="switchToInLove()" type="button">In love <3</button>
+    <button class="bored" onclick="tryBoring()" type="button">Bored</button><br/><br/>
+</div>
+
+<p>
+    This website is a virtual mood ring. <br/>
+    You tell it how you're feeling, and it changes color! <br/>
+    The default is "bored" - <br/>
+    because you haven't seen all this really cool CSS and jQuery yet! <br/>
+    Press a button and watch your mood change.
+
+</p>
+
+<p class="happy">
+    You're feeling happy? <br/>
+    Good! So am I! <br/>
+    I'm happy because jQuery and CSS made this page exciting.
+</p>
+
+<p class="sad">
+    You're feeling sad? <br/>
+    I'm sorry - I am too. <br/>
+    I'm feeling sad because jQuery makes me feel inadequate about my programming abilities.
+</p>
+
+<p class="inLove">
+    You're in love? <3 <br/>
+    Good - so am I! <br/>
+    I'm in love with CSS and jQuery. <br/>
+    Look at all these changes that happen as you press buttons! <br/><br/><br/>
+    That Lucas guy is alright, too.
+</p>
+
+<p class="mad">
+    You're mad? <br/>
+    So am I. Let's go on a rampage together. <br/>
+    I'm mad because jQuery is difficult.
+</p>
+
+<audio class="bored" autoplay>
+    <source src="Jeopardy%20Theme.mp3" type="audio/mpeg">
+</audio>
+
+<audio class="happy" loop>
+    <source src="Aqua%20-%20Aquarium.mp3" type="audio/mpeg">
+</audio>
+
+<audio class="mad" loop>
+    <source src="Kocsis%20plays%20Bartók%20-%20Piano%20Concerto%20No.%201%20(3rd%20mvt)%20Audio%20+%20Sheet%20music.mp3" type="audio/mpeg">
+</audio>
+
+<audio class="sad" loop>
+    <source src="Firelink%20Shrine%20-%20Dark%20Souls%20Soundtrack.mp3" type="audio/mpeg">
+</audio>
+
+<audio class="inLove" loop>
+    <source src="Stuck%20With%20You.mp3" type="audio/mpeg">
+</audio>
+
+</body>
+</html>
